@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registration Result</title>
+</head>
+<body>
+    <h1>Registration Successful!</h1>
+    <p>Thank you for enrolling. Here are your details:</p>
+    <ul>
+        <li>Name: <span th:text="${student.name}"></span></li>
+        <li>Email: <span th:text="${student.email}"></span></li>
+        <li>Course: <span th:text="${student.course}"></span></li>
+    </ul>
+    <p>We'll contact you soon.</p>
+</body>
+</html>
